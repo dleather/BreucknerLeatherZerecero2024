@@ -11,6 +11,14 @@ results/
 # Ignore Quarto generated files if any
 *.html
 
-..gitignore.un~
+# Ignore editor backup files
+*~
 
-.gitignore~
+# Ignore files starting with a dot and ending with '~'
+.*.un~
+
+# Ignore swap and temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
