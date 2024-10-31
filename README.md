@@ -1,4 +1,4 @@
-**Bunching in Real Estate Markets: Regulated Building Heights in New York City**
+# **Bunching in Real Estate Markets: Regulated Building Heights in New York City**
 
 Paper: https://doi.org/10.1016/j.jue.2024.103683
 Full Repository w/ Data: https://data.mendeley.com/datasets/3thdvcygww/1
