@@ -10,3 +10,7 @@ results/
 
 # Ignore Quarto generated files if any
 *.html
+
+..gitignore.un~
+
+.gitignore~
