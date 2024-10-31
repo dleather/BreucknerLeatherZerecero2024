@@ -3,18 +3,13 @@
 
 # Ignore all files in raw_data/, processed_data/, and results/ directories
 raw_data/*
-processed_data/*
 
 
 # But do not ignore the directories themselves
 !raw_data/
 !processed_data/
-!results/
-
-# Do not ignore the .gitignore files in those directories
-!raw_data/.gitignore
-!processed_data/.gitignore
-
+!figures/
+!tables/
 
 # Ignore Quarto generated files if any
 *.html
