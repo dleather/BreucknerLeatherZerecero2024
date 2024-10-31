@@ -1,12 +1,20 @@
-# Ignore data directories
-raw_data/
-processed_data/
-
-# Ignore results
-results/
-
 # Ignore system files
 .DS_Store
+
+# Ignore all files in raw_data/, processed_data/, and results/ directories
+raw_data/*
+processed_data/*
+
+
+# But do not ignore the directories themselves
+!raw_data/
+!processed_data/
+!results/
+
+# Do not ignore the .gitignore files in those directories
+!raw_data/.gitignore
+!processed_data/.gitignore
+
 
 # Ignore Quarto generated files if any
 *.html
