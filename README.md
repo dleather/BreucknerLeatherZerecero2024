@@ -1,12 +1,16 @@
-ing in Real Estate Markets: Regulated Building Heights in New York City**
+**Bunching in Real Estate Markets: Regulated Building Heights in New York City**
+
+Paper: https://doi.org/10.1016/j.jue.2024.103683
+Full Repository w/ Data: https://data.mendeley.com/datasets/3thdvcygww/1
+Blog Post:
 
 ## **Overview**
 
 This repository contains the replication materials for the paper:
 
-**Title**: *Bunching in Real Estate Markets: Regulated Building Heights in New York City*
+**Title**: *Bunching in Real Estate Markets: Regulated Building Heights in New York City,* (Journal of Urban Economics, 2024)
 
-**Authors**: Jan K. Brueckner, **David Leather**, Miguel Zerecero
+**Authors**: Jan K. Brueckner, David Leather, Miguel Zerecero
 
 **Abstract**:
 
@@ -16,9 +20,6 @@ This paper presents a real-estate application of the bunching methodology widely
 
 ## **Repository Structure**
 
-itional_stata_code/ ├── Bunching/ │ └── src/ │ └── Bunching.jl ├── processed_data/ ├── raw_data/ │ ├── MAPPLUTO/ │ └── PLUTO/ │ └── extra_csv_files/ ├── results/ │ ├── figures/ │ └── tables/ └── scripts/
-
-ditional_stata_code/`**: Additional Stata scripts used in the analysis.
 - **`scripts/`**: Main scripts for data processing and analysis.
 - **`Bunching/src/Bunching.jl`**: A Julia module containing all custom functions used in the bunching methodology.
 - **`raw_data/`**: Contains raw datasets (**not included in this repository**).
@@ -31,58 +32,13 @@ ditional_stata_code/`**: Additional Stata scripts used in the analysis.
 
 ---
 
-## **Getting Started**
-
-### **Prerequisites**
-
-- **Software Requirements**:
-  - Stata 15 or higher
-  - Julia (version compatible with the code)
-  - Quarto (for rendering documents)
-  - Other software as required (e.g., Python, R)
-
 ### **Data Acquisition**
 
-Due to size constraints and licensing issues, raw and processed data files are **not included** in this repository. Please follow the instructions below to obtain the necessary data:
+Due to size constraints and licensing issues, raw and processed data files are **not included** in this repository, but can be found in the full repository link above.
 
-1. **MAPPLUTO Data**:
-   - Download from the [NYC Planning Open Data Portal](https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-pluto-mappluto.page).
-   - Place the downloaded files in `raw_data/MAPPLUTO/`.
+### **Instructions**
 
-2. **PLUTO Data**:
-   - Also available from the [NYC Planning Open Data Portal](https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-pluto-mappluto.page).
-   - Place the files in `raw_data/PLUTO/`.
-
-### **Running the Analysis**
-
-1. **Data Processing**:
-   - Navigate to the `scripts/` directory.
-   - Run the data cleaning and processing scripts.
-
-     ```stata
-     do data_processing.do
-     ```
-
-2. **Bunching Analysis**:
-   - Navigate to `Bunching/src/` and run the Julia module `Bunching.jl`.
-
-     ```julia
-     # In Julia REPL or script
-     include("Bunching/src/Bunching.jl")
-     ```
-
-   - The `Bunching.jl` module contains all custom functions used in the bunching methodology analysis.
-
-3. **Generating Results**:
-   - The analysis scripts will generate figures and tables.
-   - Outputs are saved in the `results/` directory.
-
-### **Reproducing Figures and Tables**
-
-- Ensure all scripts are executed in the correct order.
-- Update any file paths in the scripts if necessary.
-- Refer to the comments within the scripts and the Julia module for additional guidance.
-
+See `README.pdf`.
 ---
 
 ## **Project Description**
@@ -115,11 +71,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## **Acknowledgments**
 
-- **Original Authors**: Jan K. Brueckner, **David Leather**, Miguel Zerecero
+- **Original Authors**: Jan K. Brueckner, David Leather, Miguel Zerecero
 - **Data Sources**:
   - NYC Planning Open Data Portal
-- **Contributors**:
-  - Collaborators and reviewers who assisted in the replication study.
 
 ---
 
@@ -129,16 +83,8 @@ For any questions or issues regarding this repository, please contact:
 
 **David Leather**
 
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **GitHub**: [your-github-username](https://github.com/your-github-username)
-
----
-
-## **Additional Resources**
-
-- **Original Paper**: [Link to the published paper if available online]
-- **Quarto Blog Post**: [Link to the blog post if you've created one]
-- **Related Works**: References to other studies or papers on related topics.
+- **Email**: [david.a.leather@gmail.com](mailto:david.a.leather@gmail.com)
+- **GitHub**: [dleather](https://github.com/dleather)
 
 ---
 
