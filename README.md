@@ -40,7 +40,9 @@ Due to size constraints and licensing issues, raw and processed data files are *
 
 ### **Instructions**
 
-See `README.pdf`.
+Once all prerequisites are installed, everything is run from a single script - `run.jl`.
+
+See `README.pdf` for in-depth detail on prerequisites and installation instructions.
 
 ---
 
