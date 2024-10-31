@@ -22,8 +22,8 @@ This paper presents a real-estate application of the bunching methodology widely
 
 ## **Repository Structure**
 
-- **`scripts/`**: Main scripts for data processing and analysis.
-- **`Bunching/src/Bunching.jl`**: A Julia module containing all custom functions used in the bunching methodology.
+- **`code/scripts/`**: Main scripts for data processing and analysis.
+- **`code/Bunching/src/Bunching.jl`**: A Julia module containing all custom functions used in the bunching methodology.
 - **`raw_data/`**: Contains raw datasets (**not included in this repository**).
   - **`MAPPLUTO/`**
   - **`PLUTO/`**
